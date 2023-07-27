@@ -1,0 +1,29 @@
+{
+  "name": "react-coco-icons",
+  "version": "1.0.0",
+  "description": "SVG-based React icon components using COCO icon lib.",
+  "repository": "https://github.com/carlosh-dev/react-coco-icons",
+  "author": "Carlos Henrique <56794739+carlosh-dev@users.noreply.github.com>",
+  "license": "ISC",
+  "module": "dist/index.esm.js'",
+  "type": "module",
+  "files": ["dist"],
+  "scripts": {
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run svgr && rollup -c",
+    "svgr": "svgr  --icon --title-prop --replace-attr-values '#181818'=currentColor -d src assets "
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/runtime": "^7.22.6",
+    "@svgr/cli": "^8.0.1",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup-plugin-filesize": "^10.0.0"
+  }
+}
