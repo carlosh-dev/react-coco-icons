@@ -5,7 +5,8 @@
   "repository": "https://github.com/carlosh-dev/react-coco-icons",
   "author": "Carlos Henrique <56794739+carlosh-dev@users.noreply.github.com>",
   "license": "ISC",
-  "module": "dist/index.esm.js'",
+  "main": "dist/index.tsx",
+  "module": "dist/index.d.ts'",
   "type": "module",
   "files": [
     "dist"
