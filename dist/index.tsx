@@ -1,371 +1,377 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
+interface SVGRProps$46 {
+    title?: string;
+    titleId?: string;
+}
+declare const Svg30Sec: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$46) => React.JSX.Element;
+
 interface SVGRProps$45 {
     title?: string;
     titleId?: string;
 }
-declare const Svg30Sec: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$45) => React.JSX.Element;
+declare const SvgAddToArchive: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$45) => React.JSX.Element;
 
 interface SVGRProps$44 {
     title?: string;
     titleId?: string;
 }
-declare const SvgAddToArchive: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$44) => React.JSX.Element;
+declare const SvgAddUser: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$44) => React.JSX.Element;
 
 interface SVGRProps$43 {
     title?: string;
     titleId?: string;
 }
-declare const SvgAddUser: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$43) => React.JSX.Element;
+declare const SvgAlarm: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$43) => React.JSX.Element;
 
 interface SVGRProps$42 {
     title?: string;
     titleId?: string;
 }
-declare const SvgAlarm: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$42) => React.JSX.Element;
+declare const SvgAngry: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$42) => React.JSX.Element;
 
 interface SVGRProps$41 {
     title?: string;
     titleId?: string;
 }
-declare const SvgAngry: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$41) => React.JSX.Element;
+declare const SvgAnnouncement: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$41) => React.JSX.Element;
 
 interface SVGRProps$40 {
     title?: string;
     titleId?: string;
 }
-declare const SvgAnnouncement: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$40) => React.JSX.Element;
+declare const SvgArchive1: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$40) => React.JSX.Element;
 
 interface SVGRProps$3$ {
     title?: string;
     titleId?: string;
 }
-declare const SvgArchive1: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3$) => React.JSX.Element;
+declare const SvgArchiveBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3$) => React.JSX.Element;
 
 interface SVGRProps$3_ {
     title?: string;
     titleId?: string;
 }
-declare const SvgArchiveBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3_) => React.JSX.Element;
+declare const SvgArchive: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3_) => React.JSX.Element;
 
 interface SVGRProps$3Z {
     title?: string;
     titleId?: string;
 }
-declare const SvgArchive: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Z) => React.JSX.Element;
+declare const SvgArrowDown: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Z) => React.JSX.Element;
 
 interface SVGRProps$3Y {
     title?: string;
     titleId?: string;
 }
-declare const SvgArrowDown: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Y) => React.JSX.Element;
+declare const SvgArrowLeft: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Y) => React.JSX.Element;
 
 interface SVGRProps$3X {
     title?: string;
     titleId?: string;
 }
-declare const SvgArrowLeft: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3X) => React.JSX.Element;
+declare const SvgArrowRight: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3X) => React.JSX.Element;
 
 interface SVGRProps$3W {
     title?: string;
     titleId?: string;
 }
-declare const SvgArrowRight: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3W) => React.JSX.Element;
+declare const SvgArrowUp: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3W) => React.JSX.Element;
 
 interface SVGRProps$3V {
     title?: string;
     titleId?: string;
 }
-declare const SvgArrowUp: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3V) => React.JSX.Element;
+declare const SvgAttach: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3V) => React.JSX.Element;
 
 interface SVGRProps$3U {
     title?: string;
     titleId?: string;
 }
-declare const SvgAttach: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3U) => React.JSX.Element;
+declare const SvgBanned: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3U) => React.JSX.Element;
 
 interface SVGRProps$3T {
     title?: string;
     titleId?: string;
 }
-declare const SvgBanned: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3T) => React.JSX.Element;
+declare const SvgBasketball: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3T) => React.JSX.Element;
 
 interface SVGRProps$3S {
     title?: string;
     titleId?: string;
 }
-declare const SvgBasketball: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3S) => React.JSX.Element;
+declare const SvgBatteryCharging: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3S) => React.JSX.Element;
 
 interface SVGRProps$3R {
     title?: string;
     titleId?: string;
 }
-declare const SvgBatteryCharging: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3R) => React.JSX.Element;
+declare const SvgBatteryDead: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3R) => React.JSX.Element;
 
 interface SVGRProps$3Q {
     title?: string;
     titleId?: string;
 }
-declare const SvgBatteryDead: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Q) => React.JSX.Element;
+declare const SvgBattery2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3Q) => React.JSX.Element;
 
 interface SVGRProps$3P {
     title?: string;
     titleId?: string;
 }
-declare const SvgBattery2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3P) => React.JSX.Element;
+declare const SvgBattery3: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3P) => React.JSX.Element;
 
 interface SVGRProps$3O {
     title?: string;
     titleId?: string;
 }
-declare const SvgBattery3: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3O) => React.JSX.Element;
+declare const SvgBattery4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3O) => React.JSX.Element;
 
 interface SVGRProps$3N {
     title?: string;
     titleId?: string;
 }
-declare const SvgBattery4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3N) => React.JSX.Element;
+declare const SvgBattery: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3N) => React.JSX.Element;
 
 interface SVGRProps$3M {
     title?: string;
     titleId?: string;
 }
-declare const SvgBattery: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3M) => React.JSX.Element;
+declare const SvgBearish: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3M) => React.JSX.Element;
 
 interface SVGRProps$3L {
     title?: string;
     titleId?: string;
 }
-declare const SvgBearish: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3L) => React.JSX.Element;
+declare const SvgBlockedCall: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3L) => React.JSX.Element;
 
 interface SVGRProps$3K {
     title?: string;
     titleId?: string;
 }
-declare const SvgBlockedCall: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3K) => React.JSX.Element;
+declare const SvgBook: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3K) => React.JSX.Element;
 
 interface SVGRProps$3J {
     title?: string;
     titleId?: string;
 }
-declare const SvgBook: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3J) => React.JSX.Element;
+declare const SvgBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3J) => React.JSX.Element;
 
 interface SVGRProps$3I {
     title?: string;
     titleId?: string;
 }
-declare const SvgBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3I) => React.JSX.Element;
+declare const SvgBreak: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3I) => React.JSX.Element;
 
 interface SVGRProps$3H {
     title?: string;
     titleId?: string;
 }
-declare const SvgBreak: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3H) => React.JSX.Element;
+declare const SvgBrush: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3H) => React.JSX.Element;
 
 interface SVGRProps$3G {
     title?: string;
     titleId?: string;
 }
-declare const SvgBrush: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3G) => React.JSX.Element;
+declare const SvgBullish: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3G) => React.JSX.Element;
 
 interface SVGRProps$3F {
     title?: string;
     titleId?: string;
 }
-declare const SvgBullish: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3F) => React.JSX.Element;
+declare const SvgCalender2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3F) => React.JSX.Element;
 
 interface SVGRProps$3E {
     title?: string;
     titleId?: string;
 }
-declare const SvgCalender2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3E) => React.JSX.Element;
+declare const SvgCalender: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3E) => React.JSX.Element;
 
 interface SVGRProps$3D {
     title?: string;
     titleId?: string;
 }
-declare const SvgCalender: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3D) => React.JSX.Element;
+declare const SvgCall1: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3D) => React.JSX.Element;
 
 interface SVGRProps$3C {
     title?: string;
     titleId?: string;
 }
-declare const SvgCall1: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3C) => React.JSX.Element;
+declare const SvgCallTo: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3C) => React.JSX.Element;
 
 interface SVGRProps$3B {
     title?: string;
     titleId?: string;
 }
-declare const SvgCallTo: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3B) => React.JSX.Element;
+declare const SvgCall: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3B) => React.JSX.Element;
 
 interface SVGRProps$3A {
     title?: string;
     titleId?: string;
 }
-declare const SvgCall: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3A) => React.JSX.Element;
+declare const SvgCamera4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3A) => React.JSX.Element;
 
 interface SVGRProps$3z {
     title?: string;
     titleId?: string;
 }
-declare const SvgCamera4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3z) => React.JSX.Element;
+declare const SvgCamera: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3z) => React.JSX.Element;
 
 interface SVGRProps$3y {
     title?: string;
     titleId?: string;
 }
-declare const SvgCamera: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3y) => React.JSX.Element;
+declare const SvgCandele: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3y) => React.JSX.Element;
 
 interface SVGRProps$3x {
     title?: string;
     titleId?: string;
 }
-declare const SvgCandele: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3x) => React.JSX.Element;
+declare const SvgCards: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3x) => React.JSX.Element;
 
 interface SVGRProps$3w {
     title?: string;
     titleId?: string;
 }
-declare const SvgCards: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3w) => React.JSX.Element;
+declare const SvgCelularBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3w) => React.JSX.Element;
 
 interface SVGRProps$3v {
     title?: string;
     titleId?: string;
 }
-declare const SvgCelularBox: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3v) => React.JSX.Element;
+declare const SvgCircle: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3v) => React.JSX.Element;
 
 interface SVGRProps$3u {
     title?: string;
     titleId?: string;
 }
-declare const SvgCircle: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3u) => React.JSX.Element;
+declare const SvgClipboard: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3u) => React.JSX.Element;
 
 interface SVGRProps$3t {
     title?: string;
     titleId?: string;
 }
-declare const SvgClipboard: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3t) => React.JSX.Element;
+declare const SvgClock2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3t) => React.JSX.Element;
 
 interface SVGRProps$3s {
     title?: string;
     titleId?: string;
 }
-declare const SvgClock2: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3s) => React.JSX.Element;
+declare const SvgClock4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3s) => React.JSX.Element;
 
 interface SVGRProps$3r {
     title?: string;
     titleId?: string;
 }
-declare const SvgClock4: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3r) => React.JSX.Element;
+declare const SvgClock: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3r) => React.JSX.Element;
 
 interface SVGRProps$3q {
     title?: string;
     titleId?: string;
 }
-declare const SvgClock: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3q) => React.JSX.Element;
+declare const SvgClose: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3q) => React.JSX.Element;
 
 interface SVGRProps$3p {
     title?: string;
     titleId?: string;
 }
-declare const SvgClose: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3p) => React.JSX.Element;
+declare const SvgClosedEye: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3p) => React.JSX.Element;
 
 interface SVGRProps$3o {
     title?: string;
     titleId?: string;
 }
-declare const SvgClosedEye: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3o) => React.JSX.Element;
+declare const SvgCloud: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3o) => React.JSX.Element;
 
 interface SVGRProps$3n {
     title?: string;
     titleId?: string;
 }
-declare const SvgCloud: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3n) => React.JSX.Element;
+declare const SvgClouds: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3n) => React.JSX.Element;
 
 interface SVGRProps$3m {
     title?: string;
     titleId?: string;
 }
-declare const SvgClouds: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3m) => React.JSX.Element;
+declare const SvgCoins: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3m) => React.JSX.Element;
 
 interface SVGRProps$3l {
     title?: string;
     titleId?: string;
 }
-declare const SvgCoins: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3l) => React.JSX.Element;
+declare const SvgCompass: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3l) => React.JSX.Element;
 
 interface SVGRProps$3k {
     title?: string;
     titleId?: string;
 }
-declare const SvgCompass: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3k) => React.JSX.Element;
+declare const SvgConnectedChart: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3k) => React.JSX.Element;
 
 interface SVGRProps$3j {
     title?: string;
     titleId?: string;
 }
-declare const SvgConnectedChart: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3j) => React.JSX.Element;
+declare const SvgConnected: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3j) => React.JSX.Element;
 
 interface SVGRProps$3i {
     title?: string;
     titleId?: string;
 }
-declare const SvgConnected: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3i) => React.JSX.Element;
+declare const SvgContinueMusic: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3i) => React.JSX.Element;
 
 interface SVGRProps$3h {
     title?: string;
     titleId?: string;
 }
-declare const SvgContinueMusic: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3h) => React.JSX.Element;
+declare const SvgContinueReading: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3h) => React.JSX.Element;
 
 interface SVGRProps$3g {
     title?: string;
     titleId?: string;
 }
-declare const SvgContinueReading: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3g) => React.JSX.Element;
+declare const SvgCrown: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3g) => React.JSX.Element;
 
 interface SVGRProps$3f {
     title?: string;
     titleId?: string;
 }
-declare const SvgCrown: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3f) => React.JSX.Element;
+declare const SvgCup: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3f) => React.JSX.Element;
 
 interface SVGRProps$3e {
     title?: string;
     titleId?: string;
 }
-declare const SvgCup: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3e) => React.JSX.Element;
+declare const SvgCut: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3e) => React.JSX.Element;
 
 interface SVGRProps$3d {
     title?: string;
     titleId?: string;
 }
-declare const SvgCut: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3d) => React.JSX.Element;
+declare const SvgDart: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3d) => React.JSX.Element;
 
 interface SVGRProps$3c {
     title?: string;
     titleId?: string;
 }
-declare const SvgDart: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3c) => React.JSX.Element;
+declare const SvgDecline: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3c) => React.JSX.Element;
 
 interface SVGRProps$3b {
     title?: string;
     titleId?: string;
 }
-declare const SvgDecline: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3b) => React.JSX.Element;
+declare const SvgDecreaseVolume: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3b) => React.JSX.Element;
 
 interface SVGRProps$3a {
     title?: string;
     titleId?: string;
 }
-declare const SvgDecreaseVolume: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3a) => React.JSX.Element;
+declare const SvgDevilSmile: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$3a) => React.JSX.Element;
 
 interface SVGRProps$39 {
     title?: string;
     titleId?: string;
 }
-declare const SvgDevilSmile: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$39) => React.JSX.Element;
+declare const SvgDiamond: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps$39) => React.JSX.Element;
 
 interface SVGRProps$38 {
     title?: string;
@@ -1573,4 +1579,4 @@ interface SVGRProps {
 }
 declare const SvgRemoveVideo: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => React.JSX.Element;
 
-export { SvgAddBox as AddBox, SvgAddCamera as AddCamera, SvgAddMusic as AddMusic, SvgAddToArchive as AddToArchive, SvgAddUser as AddUser, SvgAddVideo as AddVideo, SvgAlarm as Alarm, SvgAngry as Angry, SvgAnnouncement as Announcement, SvgArchive as Archive, SvgArchive1 as Archive1, SvgArchiveBox as ArchiveBox, SvgArrowDown as ArrowDown, SvgArrowLeft as ArrowLeft, SvgArrowRight as ArrowRight, SvgArrowUp as ArrowUp, SvgAttach as Attach, SvgBackward as Backward, SvgBanned as Banned, SvgBasketball as Basketball, SvgBattery as Battery, SvgBattery2 as Battery2, SvgBattery3 as Battery3, SvgBattery4 as Battery4, SvgBatteryCharging as BatteryCharging, SvgBatteryDead as BatteryDead, SvgBearish as Bearish, SvgBlockedCall as BlockedCall, SvgBook as Book, SvgBox as Box, SvgBreak as Break, SvgBrush as Brush, SvgBullish as Bullish, SvgCalender as Calender, SvgCalender2 as Calender2, SvgCall as Call, SvgCall1 as Call1, SvgCallTo as CallTo, SvgCamera as Camera, SvgCamera4 as Camera4, SvgCandele as Candele, SvgCards as Cards, SvgCelularBox as CelularBox, SvgCircle as Circle, SvgClipboard as Clipboard, SvgClock as Clock, SvgClock2 as Clock2, SvgClock4 as Clock4, SvgClose as Close, SvgClosedEye as ClosedEye, SvgCloud as Cloud, SvgClouds as Clouds, SvgCoins as Coins, SvgCompass as Compass, SvgConnected as Connected, SvgConnectedChart as ConnectedChart, SvgContinueMusic as ContinueMusic, SvgContinueReading as ContinueReading, SvgCrown as Crown, SvgCup as Cup, SvgCut as Cut, SvgDart as Dart, SvgDecline as Decline, SvgDecreaseVolume as DecreaseVolume, SvgDevilSmile as DevilSmile, SvgDisc as Disc, SvgDiscuss as Discuss, SvgDistance as Distance, SvgDoctor as Doctor, SvgDownload as Download, SvgDumbbell as Dumbbell, SvgDuplicate as Duplicate, SvgEdit as Edit, SvgEditBox as EditBox, SvgEditBox2 as EditBox2, SvgEffect as Effect, SvgEmail as Email, SvgEmail2 as Email2, SvgEnergy as Energy, SvgEnergyRestricted as EnergyRestricted, SvgExclamationBox as ExclamationBox, SvgExclamationCircle as ExclamationCircle, SvgEye as Eye, SvgFaceId as FaceId, SvgFemale as Female, SvgFile as File, SvgFileVerified as FileVerified, SvgFilter as Filter, SvgFindNear as FindNear, SvgFingerprint as Fingerprint, SvgFlag as Flag, SvgForward as Forward, SvgForward1 as Forward1, SvgFrame as Frame, SvgFrame1 as Frame1, SvgFrame2 as Frame2, SvgFrame3 as Frame3, SvgGem as Gem, SvgGem2 as Gem2, SvgGender as Gender, SvgGift as Gift, SvgGraduationCap as GraduationCap, SvgGrid as Grid, SvgGridSeystem as GridSeystem, SvgHeadset as Headset, SvgHeadset1 as Headset1, SvgHeart as Heart, SvgHeartBeat as HeartBeat, SvgHided as Hided, SvgHome as Home, SvgHome2 as Home2, SvgHorizontalSlide as HorizontalSlide, SvgHorizontalSlide1 as HorizontalSlide1, SvgHourglass as Hourglass, SvgImage as Image, SvgInProtect as InProtect, SvgIncognito as Incognito, SvgInternet as Internet, SvgItems as Items, SvgKey as Key, SvgLaptopAndPhone as LaptopAndPhone, SvgLayers as Layers, SvgLayers1 as Layers1, SvgLbtq as Lbtq, SvgLineChart as LineChart, SvgLoading as Loading, SvgLock as Lock, SvgLock2 as Lock2, SvgLoop as Loop, SvgLove as Love, SvgLtrGrid as LtrGrid, SvgMagic as Magic, SvgMale as Male, SvgMap as Map, SvgMaximize as Maximize, SvgMaximize1 as Maximize1, SvgMaximizeCircle as MaximizeCircle, SvgMentionUser as MentionUser, SvgMentionUsers as MentionUsers, SvgMessage as Message, SvgMessageBox as MessageBox, SvgMessageBubble as MessageBubble, SvgMicrophone as Microphone, SvgMinus as Minus, SvgMinusBox as MinusBox, SvgMoney as Money, SvgMonitor as Monitor, SvgMoonNight as MoonNight, SvgMovie as Movie, SvgMusic as Music, SvgMusic2 as Music2, SvgNormalSpeed as NormalSpeed, SvgNotebook as Notebook, SvgNotfication as Notfication, SvgNotficationMuted as NotficationMuted, SvgOpenEye as OpenEye, SvgPages as Pages, SvgPause as Pause, SvgPen as Pen, SvgPenTool as PenTool, SvgPencil as Pencil, SvgPerson as Person, SvgPersons as Persons, SvgPin as Pin, SvgPinLocation as PinLocation, SvgPlace as Place, SvgPlace1 as Place1, SvgPlace2 as Place2, SvgPlace3 as Place3, SvgPlaceClosed as PlaceClosed, SvgPlanet as Planet, SvgPlay as Play, SvgPlus as Plus, SvgPrintMachine as PrintMachine, SvgProtectionOff as ProtectionOff, SvgProtectionOn as ProtectionOn, SvgQuestionBox as QuestionBox, SvgQuestionCircle as QuestionCircle, SvgRadio as Radio, SvgRecieveCall as RecieveCall, SvgRecieveHeart as RecieveHeart, SvgRecieveMoney as RecieveMoney, SvgRefresh as Refresh, SvgRefresh2 as Refresh2, SvgRefresh3 as Refresh3, SvgRefreshTime as RefreshTime, SvgRemotePlay as RemotePlay, SvgRemoveArchive as RemoveArchive, SvgRemoveBox as RemoveBox, SvgRemoveCamera as RemoveCamera, SvgRemoveUser as RemoveUser, SvgRemoveVideo as RemoveVideo, SvgReport as Report, SvgReport2 as Report2, SvgRescueTube as RescueTube, SvgRinging as Ringing, SvgRiseVolume as RiseVolume, SvgRtlText as RtlText, SvgScreenGrid as ScreenGrid, SvgScreenShare as ScreenShare, SvgSdCard as SdCard, SvgSearch as Search, SvgSend as Send, SvgSendHeart as SendHeart, SvgSendMoney as SendMoney, SvgSendToArchive as SendToArchive, SvgSettings as Settings, SvgSettings2 as Settings2, SvgSettings21 as Settings21, SvgSharePlay as SharePlay, SvgShop as Shop, SvgShop2 as Shop2, SvgShuffle as Shuffle, SvgSign as Sign, SvgSlide as Slide, SvgSlider as Slider, SvgSlider2 as Slider2, SvgSpace as Space, SvgSpace1 as Space1, SvgSpace2 as Space2, SvgStar as Star, SvgStar2 as Star2, SvgStickNote as StickNote, SvgSticker as Sticker, SvgStory as Story, SvgSupportBox as SupportBox, Svg30Sec, SvgText as Text, SvgTextBox as TextBox, SvgTicket as Ticket, SvgTicket1 as Ticket1, SvgTimer as Timer, SvgTinyHome as TinyHome, SvgToDown as ToDown, SvgToLeft as ToLeft, SvgToRight as ToRight, SvgToUp as ToUp, SvgTransfer as Transfer, SvgTransfer2 as Transfer2, SvgTrashCan as TrashCan, SvgTurn as Turn, SvgTurnKey as TurnKey, SvgUnlimited as Unlimited, SvgUpload as Upload, SvgUsdDollar as UsdDollar, SvgUser as User, SvgUserCircle as UserCircle, SvgUserRestricted as UserRestricted, SvgUserStory as UserStory, SvgUserVerified as UserVerified, SvgUsers as Users, SvgVerified as Verified, SvgVerifyCircle as VerifyCircle, SvgVideo as Video, SvgVideoFile as VideoFile, SvgVideoFile2 as VideoFile2, SvgVolumeHigh as VolumeHigh, SvgVolumeLow as VolumeLow, SvgVolumeMuted as VolumeMuted, SvgVr as Vr, SvgWarning as Warning, SvgWhatsapp as Whatsapp };
+export { SvgAddBox as AddBox, SvgAddCamera as AddCamera, SvgAddMusic as AddMusic, SvgAddToArchive as AddToArchive, SvgAddUser as AddUser, SvgAddVideo as AddVideo, SvgAlarm as Alarm, SvgAngry as Angry, SvgAnnouncement as Announcement, SvgArchive as Archive, SvgArchive1 as Archive1, SvgArchiveBox as ArchiveBox, SvgArrowDown as ArrowDown, SvgArrowLeft as ArrowLeft, SvgArrowRight as ArrowRight, SvgArrowUp as ArrowUp, SvgAttach as Attach, SvgBackward as Backward, SvgBanned as Banned, SvgBasketball as Basketball, SvgBattery as Battery, SvgBattery2 as Battery2, SvgBattery3 as Battery3, SvgBattery4 as Battery4, SvgBatteryCharging as BatteryCharging, SvgBatteryDead as BatteryDead, SvgBearish as Bearish, SvgBlockedCall as BlockedCall, SvgBook as Book, SvgBox as Box, SvgBreak as Break, SvgBrush as Brush, SvgBullish as Bullish, SvgCalender as Calender, SvgCalender2 as Calender2, SvgCall as Call, SvgCall1 as Call1, SvgCallTo as CallTo, SvgCamera as Camera, SvgCamera4 as Camera4, SvgCandele as Candele, SvgCards as Cards, SvgCelularBox as CelularBox, SvgCircle as Circle, SvgClipboard as Clipboard, SvgClock as Clock, SvgClock2 as Clock2, SvgClock4 as Clock4, SvgClose as Close, SvgClosedEye as ClosedEye, SvgCloud as Cloud, SvgClouds as Clouds, SvgCoins as Coins, SvgCompass as Compass, SvgConnected as Connected, SvgConnectedChart as ConnectedChart, SvgContinueMusic as ContinueMusic, SvgContinueReading as ContinueReading, SvgCrown as Crown, SvgCup as Cup, SvgCut as Cut, SvgDart as Dart, SvgDecline as Decline, SvgDecreaseVolume as DecreaseVolume, SvgDevilSmile as DevilSmile, SvgDiamond as Diamond, SvgDisc as Disc, SvgDiscuss as Discuss, SvgDistance as Distance, SvgDoctor as Doctor, SvgDownload as Download, SvgDumbbell as Dumbbell, SvgDuplicate as Duplicate, SvgEdit as Edit, SvgEditBox as EditBox, SvgEditBox2 as EditBox2, SvgEffect as Effect, SvgEmail as Email, SvgEmail2 as Email2, SvgEnergy as Energy, SvgEnergyRestricted as EnergyRestricted, SvgExclamationBox as ExclamationBox, SvgExclamationCircle as ExclamationCircle, SvgEye as Eye, SvgFaceId as FaceId, SvgFemale as Female, SvgFile as File, SvgFileVerified as FileVerified, SvgFilter as Filter, SvgFindNear as FindNear, SvgFingerprint as Fingerprint, SvgFlag as Flag, SvgForward as Forward, SvgForward1 as Forward1, SvgFrame as Frame, SvgFrame1 as Frame1, SvgFrame2 as Frame2, SvgFrame3 as Frame3, SvgGem as Gem, SvgGem2 as Gem2, SvgGender as Gender, SvgGift as Gift, SvgGraduationCap as GraduationCap, SvgGrid as Grid, SvgGridSeystem as GridSeystem, SvgHeadset as Headset, SvgHeadset1 as Headset1, SvgHeart as Heart, SvgHeartBeat as HeartBeat, SvgHided as Hided, SvgHome as Home, SvgHome2 as Home2, SvgHorizontalSlide as HorizontalSlide, SvgHorizontalSlide1 as HorizontalSlide1, SvgHourglass as Hourglass, SvgImage as Image, SvgInProtect as InProtect, SvgIncognito as Incognito, SvgInternet as Internet, SvgItems as Items, SvgKey as Key, SvgLaptopAndPhone as LaptopAndPhone, SvgLayers as Layers, SvgLayers1 as Layers1, SvgLbtq as Lbtq, SvgLineChart as LineChart, SvgLoading as Loading, SvgLock as Lock, SvgLock2 as Lock2, SvgLoop as Loop, SvgLove as Love, SvgLtrGrid as LtrGrid, SvgMagic as Magic, SvgMale as Male, SvgMap as Map, SvgMaximize as Maximize, SvgMaximize1 as Maximize1, SvgMaximizeCircle as MaximizeCircle, SvgMentionUser as MentionUser, SvgMentionUsers as MentionUsers, SvgMessage as Message, SvgMessageBox as MessageBox, SvgMessageBubble as MessageBubble, SvgMicrophone as Microphone, SvgMinus as Minus, SvgMinusBox as MinusBox, SvgMoney as Money, SvgMonitor as Monitor, SvgMoonNight as MoonNight, SvgMovie as Movie, SvgMusic as Music, SvgMusic2 as Music2, SvgNormalSpeed as NormalSpeed, SvgNotebook as Notebook, SvgNotfication as Notfication, SvgNotficationMuted as NotficationMuted, SvgOpenEye as OpenEye, SvgPages as Pages, SvgPause as Pause, SvgPen as Pen, SvgPenTool as PenTool, SvgPencil as Pencil, SvgPerson as Person, SvgPersons as Persons, SvgPin as Pin, SvgPinLocation as PinLocation, SvgPlace as Place, SvgPlace1 as Place1, SvgPlace2 as Place2, SvgPlace3 as Place3, SvgPlaceClosed as PlaceClosed, SvgPlanet as Planet, SvgPlay as Play, SvgPlus as Plus, SvgPrintMachine as PrintMachine, SvgProtectionOff as ProtectionOff, SvgProtectionOn as ProtectionOn, SvgQuestionBox as QuestionBox, SvgQuestionCircle as QuestionCircle, SvgRadio as Radio, SvgRecieveCall as RecieveCall, SvgRecieveHeart as RecieveHeart, SvgRecieveMoney as RecieveMoney, SvgRefresh as Refresh, SvgRefresh2 as Refresh2, SvgRefresh3 as Refresh3, SvgRefreshTime as RefreshTime, SvgRemotePlay as RemotePlay, SvgRemoveArchive as RemoveArchive, SvgRemoveBox as RemoveBox, SvgRemoveCamera as RemoveCamera, SvgRemoveUser as RemoveUser, SvgRemoveVideo as RemoveVideo, SvgReport as Report, SvgReport2 as Report2, SvgRescueTube as RescueTube, SvgRinging as Ringing, SvgRiseVolume as RiseVolume, SvgRtlText as RtlText, SvgScreenGrid as ScreenGrid, SvgScreenShare as ScreenShare, SvgSdCard as SdCard, SvgSearch as Search, SvgSend as Send, SvgSendHeart as SendHeart, SvgSendMoney as SendMoney, SvgSendToArchive as SendToArchive, SvgSettings as Settings, SvgSettings2 as Settings2, SvgSettings21 as Settings21, SvgSharePlay as SharePlay, SvgShop as Shop, SvgShop2 as Shop2, SvgShuffle as Shuffle, SvgSign as Sign, SvgSlide as Slide, SvgSlider as Slider, SvgSlider2 as Slider2, SvgSpace as Space, SvgSpace1 as Space1, SvgSpace2 as Space2, SvgStar as Star, SvgStar2 as Star2, SvgStickNote as StickNote, SvgSticker as Sticker, SvgStory as Story, SvgSupportBox as SupportBox, Svg30Sec, SvgText as Text, SvgTextBox as TextBox, SvgTicket as Ticket, SvgTicket1 as Ticket1, SvgTimer as Timer, SvgTinyHome as TinyHome, SvgToDown as ToDown, SvgToLeft as ToLeft, SvgToRight as ToRight, SvgToUp as ToUp, SvgTransfer as Transfer, SvgTransfer2 as Transfer2, SvgTrashCan as TrashCan, SvgTurn as Turn, SvgTurnKey as TurnKey, SvgUnlimited as Unlimited, SvgUpload as Upload, SvgUsdDollar as UsdDollar, SvgUser as User, SvgUserCircle as UserCircle, SvgUserRestricted as UserRestricted, SvgUserStory as UserStory, SvgUserVerified as UserVerified, SvgUsers as Users, SvgVerified as Verified, SvgVerifyCircle as VerifyCircle, SvgVideo as Video, SvgVideoFile as VideoFile, SvgVideoFile2 as VideoFile2, SvgVolumeHigh as VolumeHigh, SvgVolumeLow as VolumeLow, SvgVolumeMuted as VolumeMuted, SvgVr as Vr, SvgWarning as Warning, SvgWhatsapp as Whatsapp };
