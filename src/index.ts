@@ -59,6 +59,7 @@ export { default as Dart } from "./Dart";
 export { default as Decline } from "./Decline";
 export { default as DecreaseVolume } from "./DecreaseVolume";
 export { default as DevilSmile } from "./DevilSmile";
+export { default as Diamond } from "./Diamond";
 export { default as Disc } from "./Disc";
 export { default as Discuss } from "./Discuss";
 export { default as Doctor } from "./Doctor";
