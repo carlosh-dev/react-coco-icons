@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-    "declaration": true,
-    "target": "es2016",
-    "jsx": "react", 
-    "module": "esnext","esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,       
-    "strict": true,  
-    "outDir" : "./dist",
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "build", "dist", "example", "rollup.config.js"]
+  "include": ["src"]
 }
