@@ -1,37 +1,64 @@
 {
   "name": "react-coco-icons",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "SVG-based React icon components using COCO icon lib.",
-  "repository": "https://github.com/carlosh-dev/react-coco-icons",
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "coco",
+    "icon-library",
+    "react-icons"
+  ],
+  "homepage": "https://github.com/carlosh-dev/react-coco-icons#readme",
+  "bugs": {
+    "url": "https://github.com/carlosh-dev/react-coco-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosh-dev/react-coco-icons.git"
+  },
   "author": "Carlos Henrique <56794739+carlosh-dev@users.noreply.github.com>",
   "license": "ISC",
-  "main": "dist/index.tsx",
-  "module": "dist/index.d.ts'",
   "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
   "files": [
     "dist"
   ],
   "scripts": {
-    "prebuild": "rimraf src && rimraf dist",
-    "build": "npm run svgr && rollup -c",
-    "svgr": "svgr  --typescript --icon --title-prop --replace-attr-values '#181818'=currentColor -d src assets "
+    "clean": "rimraf src dist",
+    "svgr": "svgr --config-file svgr.config.cjs -d src assets",
+    "build": "npm run clean && npm run svgr && rollup -c",
+    "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/runtime": "^7.22.6",
-    "@svgr/cli": "^8.0.1",
-    "react": "^18.2.0",
-    "rimraf": "^5.0.1"
+  "peerDependencies": {
+    "react": ">=16.8"
   },
   "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-typescript": "^11.1.2",
+    "@rollup/plugin-typescript": "^12.3.1",
+    "@svgr/cli": "^8.1.0",
     "@types/react": "^18.2.17",
-    "rollup-plugin-dts": "^5.3.0",
-    "rollup-plugin-filesize": "^10.0.0",
+    "react": "^18.3.1",
+    "rimraf": "^5.0.10",
+    "rollup": "^4.68.8",
+    "rollup-plugin-dts": "^6.5.1",
+    "tslib": "^2.9.1",
     "typescript": "^5.1.6"
   }
 }
